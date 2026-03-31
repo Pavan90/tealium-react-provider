@@ -1,0 +1,30 @@
+{
+  "name": "@analytics/tealium-react-provider",
+  "version": "0.1.0",
+  "description": "React hooks and provider for Tealium integration.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
+  "private": false,
+  "files": ["dist"],
+
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+
+  "devDependencies": {
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5.0.0"
+  },
+
+  "keywords": ["tealium", "react", "analytics", "hooks"],
+  "author": "pkodali",
+  "license": "MIT"
+}
