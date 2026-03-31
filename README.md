@@ -106,7 +106,3 @@ This package is ready for enterprise npm publishing:
 
 ## License
 MIT
-
----
-
-For more details, see the source code and inline documentation.
