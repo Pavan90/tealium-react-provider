@@ -1,4 +1,4 @@
-# @analytics/tealium-react-provider
+# tealium-react-provider
 
 A robust, enterprise-ready React provider and hooks library for seamless Tealium integration. This package enables declarative, type-safe analytics event tracking in React applications, supporting modern best practices and scalable analytics architectures.
 
@@ -13,7 +13,7 @@ A robust, enterprise-ready React provider and hooks library for seamless Tealium
 ## Installation
 
 ```sh
-npm install @analytics/tealium-react-provider
+npm install tealium-react-provider
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ npm install @analytics/tealium-react-provider
 ### 1. Wrap your app with `TealiumProvider`
 
 ```tsx
-import { TealiumProvider } from '@analytics/tealium-react-provider';
+import { TealiumProvider } from 'tealium-react-provider';
 
 <TealiumProvider
   config={{
@@ -41,7 +41,7 @@ import { TealiumProvider } from '@analytics/tealium-react-provider';
 ### 2. Track page views
 
 ```tsx
-import { usePageView } from '@analytics/tealium-react-provider';
+import { usePageView } from 'tealium-react-provider';
 
 function MyPage() {
   usePageView({ page_name: 'Home' });
