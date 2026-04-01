@@ -1,6 +1,6 @@
 {
   "name": "tealium-react-provider",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "React hooks and provider for Tealium integration.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
