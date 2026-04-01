@@ -52,7 +52,7 @@ function MyPage() {
 ### 3. Track custom events
 
 ```tsx
-import { useTrackEvent } from '@analytics/tealium-react-provider';
+import { useTrackEvent } from 'tealium-react-provider';
 
 const trackCTA = useTrackEvent('link', { tealium_event: 'cta_click' });
 
@@ -64,7 +64,7 @@ const trackCTA = useTrackEvent('link', { tealium_event: 'cta_click' });
 ### 4. Use `TealiumLink` for declarative event tracking
 
 ```tsx
-import { TealiumLink } from '@analytics/tealium-react-provider';
+import { TealiumLink } from 'tealium-react-provider';
 
 <TealiumLink data={{ tealium_event: 'cta_click', link_text: 'Get Started' }}>
   <button>Get Started</button>
