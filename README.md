@@ -106,3 +106,4 @@ This package is ready for enterprise npm publishing:
 
 ## License
 MIT
+<!-- updated -->
