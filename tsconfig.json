@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
     "target": "ES2019",
-    "module": "ESNext",
+    "module": "commonjs",
     "lib": ["dom", "esnext"],
     "declaration": true,
     "declarationDir": "dist",
-    "outDir": "dist",
+    "outDir": "dist/cjs",
     "jsx": "react-jsx",
     "moduleResolution": "node",
     "esModuleInterop": true,

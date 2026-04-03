@@ -8,6 +8,7 @@ A robust, enterprise-ready React provider and hooks library for seamless Tealium
 - **Hooks**: `usePageView` and `useTrackEvent` for easy, declarative analytics tracking.
 - **TealiumLink**: Component to fire Tealium events on user interactions without manual handler code.
 - **TypeScript support**: Fully typed APIs for safety and IDE autocompletion.
+- **Dual module support**: Works with both CommonJS and ES6 modules for maximum compatibility.
 - **Enterprise ready**: Designed for scalability, testability, and maintainability.
 
 ## Installation
@@ -15,6 +16,8 @@ A robust, enterprise-ready React provider and hooks library for seamless Tealium
 ```sh
 npm install tealium-react-provider
 ```
+
+> **Note**: This package supports both CommonJS and ES6 modules, ensuring compatibility with all modern and legacy build systems.
 
 ## Usage
 
