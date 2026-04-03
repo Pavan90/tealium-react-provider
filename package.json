@@ -21,7 +21,7 @@
   "scripts": {
     "build": "npm run build:cjs && npm run build:esm",
     "build:cjs": "tsc",
-    "build:esm": "tsc --module esnext --outDir dist/esm",
+    "build:esm": "tsc --module esnext --moduleResolution node --outDir dist/esm",
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {

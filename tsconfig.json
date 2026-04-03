@@ -9,7 +9,6 @@
     "declarationDir": "dist/cjs",
     "jsx": "react-jsx",
     "moduleResolution": "node",
-    "ignoreDeprecations": "6.0",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
