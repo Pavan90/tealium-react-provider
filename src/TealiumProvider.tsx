@@ -27,7 +27,7 @@ interface TealiumProviderProps {
     profile: string;
     environment: string;
   };
-  onEvent: (event: TealiumEvent) => void;
+  onEvent?: (event: TealiumEvent) => void;
 }
 
 export const TealiumProvider: FC<TealiumProviderProps> = ({ children, onEvent, config }) => {
@@ -43,7 +43,7 @@ export const TealiumProvider: FC<TealiumProviderProps> = ({ children, onEvent, c
         _method: method,
         _ts: new Date().toISOString(),
       };
-      onEvent(event);
+      onEvent?.(event);
 
       const fire = () => {
         if (window.utag && typeof window.utag[method] === 'function') {
