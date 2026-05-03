@@ -21,6 +21,8 @@ npm install tealium-react-provider
 
 ## Usage
 
+> **Note**: `TealiumProvider` initializes a lightweight `window.utag` stub before the real `utag.js` loads. This matches Tealium's recommended async loading pattern and queues `view`, `link`, and `track` calls until the library is ready.
+
 ### 1. Wrap your app with `TealiumProvider`
 
 ```tsx

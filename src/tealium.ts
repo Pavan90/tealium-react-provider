@@ -10,6 +10,7 @@ export type TealiumEnv = 'dev' | 'qa' | 'prod';
 declare global {
   interface Window {
     utag?: {
+      e?: unknown[];
       view:  (data: UtagData) => void;
       link:  (data: UtagData) => void;
       track: (data: UtagData) => void;
