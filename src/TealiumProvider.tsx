@@ -93,11 +93,7 @@ export const TealiumProvider: FC<TealiumProviderProps> = ({
       noview: true,
     };
 
-    window.utag_data = {
-      country: 'US',
-      country_code: 'US',
-      implied_consent: 'yes',
-    };
+    window.utag_data = {};
 
     const script = document.createElement('script');
     script.id = 'utag-script';
